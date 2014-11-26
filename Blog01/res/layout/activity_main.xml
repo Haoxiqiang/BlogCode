@@ -1,0 +1,15 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:hxq="http://schemas.android.com/apk/res/blog.haoxiqiang"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="blog.haoxiqiang.MainActivity" >
+
+    <blog.haoxiqiang.SimpleView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        hxq:showContent="true"
+        hxq:showPosition="right"
+        android:text="@string/hello_world" />
+
+</RelativeLayout>
